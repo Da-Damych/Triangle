@@ -11,7 +11,7 @@ def main():
     b = float(input("Vvedite dlinu storony b: "))
     c = float(input("Vvedite dlinu storony c: "))
     area = heron_area(a, b, c)
-    print(f"Ploshchad treugolnika: {area:.4f}")
+    print(f"Ploshchad treugolnika: {area}")
 
 if __name__ == "__main__":
     main()
