@@ -1,0 +1,17 @@
+import math
+
+def heron_area(a: float, b: float, c: float) -> float:
+    p = (a + b + c) / 2.0
+    area = math.sqrt(p * (p - a) * (p - b) * (p - c))
+    return area
+
+def main():
+    print("Vychislenie ploshchadi treugolnika po formule Gerona")
+    a = float(input("Vvedite dlinu storony a: "))
+    b = float(input("Vvedite dlinu storony b: "))
+    c = float(input("Vvedite dlinu storony c: "))
+    area = heron_area(a, b, c)
+    print(f"Ploshchad treugolnika: {area:.4f}")
+
+if __name__ == "__main__":
+    main()
