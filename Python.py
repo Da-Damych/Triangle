@@ -11,7 +11,7 @@ def main():
     b = float(input("Vvedite Vashu dlinu storony b: "))
     c = float(input("Vvedite Vashu dlinu storony c: "))
     area = mega_area(a, b, c)
-    print(f"Ploshchad treugolnika: {area}")
+    print(f"Ploshchad treugolnika: {area:.5f}")
 
 if __name__ == "__main__":
     main()
