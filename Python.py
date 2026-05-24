@@ -7,9 +7,9 @@ def mega_area(a: float, b: float, c: float) -> float:
 
 def main():
     print("Vychislenie ploshchadi treugolnika po formule Gerona")
-    a = float(input("Vvedite dlinu storony a: "))
-    b = float(input("Vvedite dlinu storony b: "))
-    c = float(input("Vvedite dlinu storony c: "))
+    a = float(input("Vvedite Vashu dlinu storony a: "))
+    b = float(input("Vvedite Vashu dlinu storony b: "))
+    c = float(input("Vvedite Vashu dlinu storony c: "))
     area = mega_area(a, b, c)
     print(f"Ploshchad treugolnika: {area}")
 
